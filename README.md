@@ -22,9 +22,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### :card_file_box: Prerequisites
 
-Postgres (Create a database named 'gostack_desafio06' with 'docker' as password)
-Node: version 12 or higher
-Yarn: version 1
+* Postgres (Create a database named 'gostack_desafio06' with 'docker' as password)
+* Node: version 12 or higher
+* Yarn: version 1
 
 
 ### :construction: Installing
@@ -44,10 +44,10 @@ yarn dev:server
 
 Right now, we have routes to list, create, delete and create transactions from a csv file.
 
-<p>GET http://localhost:3333/ (list)</p>
-<p>POST http://localhost:3333/ (create)</p>
-<p>DELETE http://localhost:3333/:id (delete. id = transaction id)</p>
-<p>POST http://localhost:3333/import (Import csv. Use Multi part form to send the csv file).</p>
+* GET http://localhost:3333/ (list)
+* POST http://localhost:3333/ (create)
+* DELETE http://localhost:3333/:id (delete. id = transaction id)
+* POST http://localhost:3333/import (Import csv. Use Multi part form to send the csv file).
 
 ## :white_check_mark: Running the tests
 
@@ -65,10 +65,10 @@ The tests are going to verify if it's possible to create, update, list and delet
 ## :hammer: Built With
 
 * [NodeJs](https://nodejs.org/en/) - Is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-
+* [TypeORM](https://typeorm.io/#/) -  ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms.
 
 ## :page_facing_up: License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/twistershark/conceitos-nodejs/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/twistershark/db-and-file-upload-on-nodejs/blob/master/LICENSE) file for details
 
 
