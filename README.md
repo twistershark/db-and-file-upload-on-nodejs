@@ -2,8 +2,8 @@
 
 A challenge to reinforce what I learned during the GoStack bootcamp about TypeORM and file upload with Multer.
 This NodeJS project simulates an transaction log app. It stores every transaction that was made or received and returns the balance.
-Every transaction is in this format: { title, type: 'income' | 'outcome', value, category }.
-And the balance is going to be in this format: { income, outcome, total }.
+<p>Every transaction is in this format: { title, type: 'income' | 'outcome', value, category }.</p>
+<p>And the balance is going to be in this format: { income, outcome, total }.</p>
 
 Example of an transaction:
 ```
@@ -44,10 +44,10 @@ yarn dev:server
 
 Right now, we have routes to list, create, delete and create transactions from a csv file.
 
-GET http://localhost:3333/ (list)
-POST http://localhost:3333/ (create)
-DELETE http://localhost:3333/:id (delete. id = transaction id)
-POST http://localhost:3333/import (Import csv. Use Multi part form to send the csv file).
+<p>GET http://localhost:3333/ (list)</p>
+<p>POST http://localhost:3333/ (create)</p>
+<p>DELETE http://localhost:3333/:id (delete. id = transaction id)</p>
+<p>POST http://localhost:3333/import (Import csv. Use Multi part form to send the csv file).</p>
 
 ## :white_check_mark: Running the tests
 
